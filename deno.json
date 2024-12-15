@@ -1,0 +1,22 @@
+{
+  "name": "@ns/hono-file-watcher",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "imports": {
+    "hono": "npm:hono@^4.6.13"
+  },
+  "tasks": {
+    "dev": "deno run -NR --watch demo/main.ts"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "publish": {
+    "include": [
+      "LICENSE",
+      "README.md",
+      "mod.ts"
+    ]
+  }
+}
